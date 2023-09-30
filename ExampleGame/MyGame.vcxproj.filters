@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="H:\CMakeProjects\SimpleRenderEngineProject\Exercise4\ExampleGame\Game\ComponentController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\CMakeProjects\SimpleRenderEngineProject\Exercise4\ExampleGame\Game\ComponentRendererSprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\CMakeProjects\SimpleRenderEngineProject\Exercise4\ExampleGame\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentAsteroid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="H:\CMakeProjects\SimpleRenderEngineProject\Exercise4\ExampleGame\Game\ComponentController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\CMakeProjects\SimpleRenderEngineProject\Exercise4\ExampleGame\Game\ComponentRendererSprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentAsteroid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="H:\CMakeProjects\SimpleRenderEngineProject\Exercise4\ExampleGame\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4A465204-B622-3D85-956E-D6712455BF0C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B80936E0-312D-373E-8D66-5F3AA92F68C4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
