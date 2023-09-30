@@ -97,8 +97,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <SuppressStartupBanner>
-      </SuppressStartupBanner>
+      <SuppressStartupBanner></SuppressStartupBanner>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
@@ -141,8 +140,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <SuppressStartupBanner>
-      </SuppressStartupBanner>
+      <SuppressStartupBanner></SuppressStartupBanner>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
@@ -187,8 +185,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <SuppressStartupBanner>
-      </SuppressStartupBanner>
+      <SuppressStartupBanner></SuppressStartupBanner>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
@@ -234,8 +231,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <SuppressStartupBanner>
-      </SuppressStartupBanner>
+      <SuppressStartupBanner></SuppressStartupBanner>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
@@ -325,9 +321,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ComponentAsteroid.cpp" />
+    <ClCompile Include="H:\CMakeProjects\SimpleRenderEngineProject\Exercise4\ExampleGame\Game\ComponentAsteroid.cpp" />
+    <ClInclude Include="H:\CMakeProjects\SimpleRenderEngineProject\Exercise4\ExampleGame\Game\ComponentAsteroid.h" />
     <ClCompile Include="H:\CMakeProjects\SimpleRenderEngineProject\Exercise4\ExampleGame\Game\ComponentController.cpp" />
-    <ClInclude Include="ComponentAsteroid.h" />
     <ClInclude Include="H:\CMakeProjects\SimpleRenderEngineProject\Exercise4\ExampleGame\Game\ComponentController.h" />
     <ClCompile Include="H:\CMakeProjects\SimpleRenderEngineProject\Exercise4\ExampleGame\Game\ComponentRendererSprite.cpp" />
     <ClInclude Include="H:\CMakeProjects\SimpleRenderEngineProject\Exercise4\ExampleGame\Game\ComponentRendererSprite.h" />
